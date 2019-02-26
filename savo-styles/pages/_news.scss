@@ -1,0 +1,377 @@
+.lastprojectnews{
+	background: #F6F6F6;
+	padding-top: 90px;
+
+	h1{
+		padding: 0;
+		margin: 0;
+		
+		margin-bottom: 50px;
+
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $blackcolor;
+		letter-spacing: 2px;
+		font-size: 44px;	
+		position: relative;
+		display: table;
+		padding-right: 15px;
+		padding-left: 10px;
+		z-index: 2;
+	}
+	h1:after{
+		background-color: #EF4036;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 9px;
+		position: absolute;
+		bottom: 6px;
+		right: 0px;
+		z-index: -1;
+	}
+
+	.wrapperbig{
+		max-width: 980px;
+		margin: auto;
+		background: #F6F6F6;
+
+			.witf{
+				margin: 0;
+				height: auto;
+				color: $redcolor;
+				font-family: "Muli", sans-serif;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 18px;
+				padding-bottom: 10px;
+				display: inline;
+				span{
+					color: $paragraphcolor;
+				}
+			}
+			i{
+				display: inline;
+				color: $redcolor;
+				float: right;
+			}
+			a:hover{
+				i{
+					color: $paragraphcolor;
+				}
+			}
+
+		h4{
+			padding: 0;
+			margin: 0;
+
+			margin-top: 8px;
+			margin-bottom: 5px;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			color: $paragraphcolor;
+			font-size: 28px;
+			line-height: 28px;	
+			letter-spacing: 1px;
+		}
+		.accordion {
+		    background-color: $whitecolor;
+		    cursor: pointer;
+		    width: 100%;
+		    border: none;
+		    text-align: left;
+		    outline: none;
+		    transition: 0.4s;
+		    position: relative;
+		    padding: 30px;
+		}
+
+		.active, .accordion:hover {
+		}
+		
+		.accordion:after {
+		    content: url('../images/icon-accordion-extend.png');
+		    color: #777;
+		    font-weight: bold;
+		    position: absolute;
+		    right: 30px;
+		    width: 30px;
+		    height: 30px;
+		    top: 50px;
+		}
+
+		.active:after {
+		    content: url('../images/icon-accordion-close.png');
+		}
+
+		.panel {
+			margin-bottom: 25px;
+		    padding: 0 30px 0 30px;
+		    background-color: white;
+		    max-height: 0;
+		    overflow: hidden;
+		    transition: max-height 0.2s ease-out;
+
+		    img{
+		    	max-width: 100%;
+		    	margin-bottom: 35px;
+		    }
+		    p{
+		    	padding: 0;
+		    	margin: 0;
+
+		    	padding-bottom: 70px;
+
+		    	font-family: 'Raleway', sans-serif;
+		    	font-weight: 500;
+		    	color: $paragraphcolor;
+		    	line-height: 40px;
+		    	font-size: 18px;
+		    }
+		}
+		
+	}
+
+	h3{
+		padding: 0;
+		margin: 0;
+
+		margin-top: 30px;
+		margin-bottom: 20px;
+
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $paragraphcolor;
+		letter-spacing: 1px;
+		font-size: 28px;	
+		position: relative;
+		padding-right: 8px;
+	}
+	.loadmorebtns{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 30px;
+		a{
+
+			font-family: "Muli", sans-serif;
+			font-weight: 600;
+			color: #9B9B9B;
+			font-size: 18px;
+			letter-spacing: 2px;	
+			line-height: 36px;
+		}
+		
+	}
+	.firstparagraph{
+		max-width: 980px;
+		margin: auto;
+		padding-left: 25px;
+
+		p{
+			padding: 0;
+			margin: 0;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			color: $paragraphcolor;
+			letter-spacing: -0.05px;
+			font-size: 18px;	
+			line-height: 46px;
+		}
+	}
+	.wrapperbig2{
+		max-width: 980px;
+		margin: auto;
+		background: $whitecolor;
+		padding: 25px;
+		margin-top: 25px;
+
+
+		.firstrow{
+			.witf{
+				margin: 0;
+				height: auto;
+				color: $redcolor;
+				font-family: "Muli", sans-serif;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 18px;
+				padding-bottom: 10px;
+				display: inline;
+				span{
+					color: $paragraphcolor;
+				}
+			}
+			i{
+				display: inline;
+				color: $redcolor;
+				float: right;
+			}
+			a:hover{
+				i{
+					color: $paragraphcolor;
+				}
+			}
+		}
+
+		h4{
+			padding: 0;
+			margin: 0;
+
+			margin-top: 8px;
+			margin-bottom: 5px;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			color: $paragraphcolor;
+			font-size: 20px;
+			line-height: 30px;	
+		}
+
+		
+	}
+
+}
+
+
+
+.forpress-section{
+	background: #F6F6F6;
+	padding-top: 25px;
+	padding-bottom: 80px;
+	h1{
+		padding: 0;
+		margin: 0;
+		
+		margin-bottom: 50px;
+
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $blackcolor;
+		letter-spacing: 2px;
+		font-size: 44px;	
+		position: relative;
+		display: table;
+		padding-right: 15px;
+		padding-left: 10px;
+		z-index: 2;
+	}
+	h1:after{
+		background-color: #EF4036;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 9px;
+		position: absolute;
+		bottom: 6px;
+		right: 0px;
+		z-index: -1;
+	}
+
+
+	.wrapperbig2{
+		max-width: 980px;
+		margin: auto;
+		background: $whitecolor;
+		padding: 25px;
+
+
+
+
+		h4{
+			padding: 0;
+			margin: 0;
+
+			margin-bottom: 15px;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			color: $paragraphcolor;
+			font-size: 24px;
+			line-height: 36px;	
+		}
+		p{
+			padding: 0;
+			margin: 0;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			color: $paragraphcolor;
+			font-size: 18px;
+			line-height: 28px;	
+			a{
+				color: $redcolor;
+			}
+			a{
+				color: $redcolor;
+				-webkit-transition: all .15s ease;
+				   -moz-transition: all .15s ease;
+				    -ms-transition: all .15s ease;
+				     -o-transition: all .15s ease;
+				        transition: all .15s ease;
+			}
+			a:hover{
+				color: $paragraphcolor;
+				text-decoration: none;
+			}
+			a:focus{
+				text-decoration: none;
+			}
+		}
+
+		.btn-file{
+			color: $redcolor;
+			padding: 0;
+			font-family: "Muli", sans-serif;
+			font-weight: 800;
+			font-size: 16px;
+			letter-spacing: 1px;
+			line-height: 18px;
+			margin-top: 35px;
+
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+			i{
+				color: $redcolor;
+				margin-left: 0;
+				margin-right: 9px;
+
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+			}
+		}
+		.btn-file:hover{
+			color: $paragraphcolor;
+			i{
+				color: $paragraphcolor;
+			}
+		}
+
+		
+	}
+}
+
+
+@media(max-width: 992px){
+	.lastprojectnews .wrapperbig .accordion:after{
+		top: 25px;
+	}
+}
+
+@media(max-width: 768px){
+	.forpress-section .wrapperbig2 .btn-file{
+		margin-bottom: 50px;
+	}
+}

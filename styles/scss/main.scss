@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import "vendors/bootstrap";
+@import "vendors/font-awesome";
+@import "vendors/flex";
+@import "vendors/slick";
+@import "vendors/slick-theme";
+
+// Helpers
+@import "helpers/functions";
+@import "helpers/mixins";
+@import "helpers/variables";
+
+// Base
+@import "base/animate";
+@import "base/normalize";
+@import "base/typography";
+
+// Layout
+@import "layout/all";
+@import "layout/header";
+@import "layout/footer";
+
+// Components
+@import "components/buttons"; 
+@import "components/heros"; 
+
+// Pages
+@import "pages/index";

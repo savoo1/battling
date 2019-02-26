@@ -1,0 +1,237 @@
+.legislatorsshareable-section{
+	padding-bottom: 0;
+	.wraper{
+		padding-bottom: 0;
+		height: 300px;
+		margin-bottom: 80px;
+		p{
+			padding: 0;
+			margin: auto;
+			max-width: 389px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			color: $paragraphcolor;
+			letter-spacing: 0px;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		i{
+			float: none;
+			width: 35px;
+			display: inline-block;
+		}
+		.fontdown{
+			font-size: 75px !important;
+		}
+	}
+
+	h3{
+		padding: 0;
+		margin: 0;
+
+		margin-top: 15px;
+		margin-bottom: 90px;
+
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $paragraphcolor;
+		letter-spacing: 2px;
+		font-size: 28px;	
+		position: relative;
+		padding-right: 8px;
+	}
+
+}
+
+
+
+.forlegislatorsfirst-section{
+	background: #F6F6F6;
+	padding-bottom: 65px;
+	padding-top: 65px;
+
+	h1{
+		padding: 0;
+		margin: 0;
+		
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $blackcolor;
+		letter-spacing: 2px;
+		font-size: 44px;	
+		position: relative;
+		display: table;
+		padding-right: 15px;
+		padding-left: 10px;
+		z-index: 2;
+		margin-bottom: 20px;
+	}
+	h1:after{
+		background-color: #EF4036;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 9px;
+		position: absolute;
+		bottom: 6px;
+		right: 0px;
+		z-index: -1;
+	}
+	h3{
+		padding: 0;
+		margin: 0;
+
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+		color: $paragraphcolor;
+		letter-spacing: 2px;
+		font-size: 28px;	
+		margin-bottom: 40px;
+		margin-top: 50px;
+	}
+
+
+	p{
+		padding: 0;
+		margin: 0;
+
+		max-width: 664px;
+		margin-bottom: 25px;
+
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		color: $blackcolor;
+		line-height: 40px;
+		font-size: 18px;	
+		position: relative;
+		letter-spacing: 0;
+		span{
+			font-weight: 700;
+			font-size: 20px;
+			letter-spacing: 0;
+		}
+	}
+	.btn-file{
+		color: $redcolor;
+		padding: 0;
+		font-family: "Muli", sans-serif;
+		font-weight: 800;
+		font-size: 16px;
+		letter-spacing: 1px;
+		line-height: 18px;
+
+		-webkit-transition: all .25s ease;
+		   -moz-transition: all .25s ease;
+		    -ms-transition: all .25s ease;
+		     -o-transition: all .25s ease;
+		        transition: all .25s ease;
+		i{
+			color: $redcolor;
+			margin-left: 0;
+			margin-right: 9px;
+
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+		}
+	}
+	.btn-file:hover{
+		color: $paragraphcolor;
+		i{
+			color: $paragraphcolor;
+		}
+	}
+	a{
+		color: $redcolor;
+	}
+	.whitebox{
+		background: $whitecolor;
+		padding: 55px 30px 55px 30px;
+		float: right;
+		max-width: 380px;
+		margin-top: 70px;
+
+		p{
+			margin:0;
+			padding: 0;
+
+		}
+		.link{
+			color: $redcolor;
+			padding: 0;
+			margin: 0;
+
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			letter-spacing: 0px;
+			font-size: 18px;	
+			line-height: 40px;
+			i{
+				margin-right: 10px;
+			}
+		}
+		.socmedia{
+			padding-left: 0;
+			margin-top: 30px;
+			li{
+				display: inline;
+				i{
+					color: $redcolor;
+					font-size: 36px;
+					letter-spacing: 0.07;
+					margin-left: 0;
+					margin-right: 50px;
+					-webkit-transition: all .25s ease;
+					   -moz-transition: all .25s ease;
+					    -ms-transition: all .25s ease;
+					     -o-transition: all .25s ease;
+					        transition: all .25s ease;
+				}
+				a:hover{
+					i{
+						color: $paragraphcolor;
+					}
+				}
+			}
+			li:last-child{
+				i{
+					margin:0;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width: 992px){
+	.legislatorsshareable-section .wraper{
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+}
+@media(max-width: 768px){
+	.forlegislatorsfirst-section h1{
+		font-size: 37px;
+	}
+	.forlegislatorsfirst-section p{
+		overflow: hidden;
+	}
+	.forlegislatorsfirst-section .whitebox{
+		float: none;
+		overflow: hidden;
+	}
+	.forlegislatorsfirst-section .whitebox .socmedia{
+		text-align: center;
+	}
+	.forlegislatorsfirst-section .whitebox .socmedia li i{
+		margin: 0;
+	}
+	.shareable-section{
+		padding-top: 0;
+	}
+}

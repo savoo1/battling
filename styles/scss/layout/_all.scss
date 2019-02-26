@@ -1,0 +1,67 @@
+// =============================================================================
+//
+// Global
+//
+// =============================================================================
+
+body {
+	color: #4A4A4A;
+	font-family: $Raleway;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}   
+
+a, .btn, .btn-link { 
+	@include transition(color .3s, background-color .3s, border .3s);
+}
+
+.container {
+	@include media-breakpoint-down(md) {
+		max-width: none;
+	}
+}
+
+// content border anim
+.content-border {
+	display: block;
+	position: relative;
+	text-decoration: none !important;
+	&:before, &:after {
+		@include transition(all .2s ease-in-out);
+		background-color: $color-red;
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 2px;
+	}
+	&:after {
+		width: 100%;
+	}
+	&:before {
+		width: 0px;
+		left: 0;
+		height: 2px;
+		-webkit-transition-delay: .2s;
+		-moz-transition-delay: .2s;
+		transition-delay: .2s;
+	}
+	&:hover, &:focus {
+		&:after {
+			width: 0px;
+		}
+		&:before {
+			width: 100%;
+		}
+	}
+}
+ 
+// content with arrow anim
+.content-with-arrow {
+	&:hover, &:focus {
+		.fa-arrow-circle-right {
+			@include animation('.3s hvr-icon-hang-sink 0s ease-out 1', '1.5s hvr-icon-hang .3s ease-in-out infinite');
+		}
+	}
+}
